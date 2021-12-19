@@ -2,7 +2,18 @@
     margin:40px auto;
     padding:60px 0;
     width:90%;
+    font-family: 'Recursive', sans-serif;
+}
+
+.team{
     display:flex;
     justify-content: space-between;
-    font-family: 'Recursive', sans-serif;
+}
+
+.team-container h1{
+    margin-bottom:40px;
+    color:#fff;
+    font-size:52px;
+    text-align:center;
+    font-family: QuickLove,sans-serif;
 }

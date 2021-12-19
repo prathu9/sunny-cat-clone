@@ -33,11 +33,14 @@ const teamMember = [
 const Team = () => {
     return(
         <div className="team-container">
-            {
-                teamMember.map(
-                    (member, i) => <TeamBox key={i} {...member}/>
-                )
-            }
+            <h1>TEAM</h1>
+            <div className="team">
+                {
+                    teamMember.map(
+                        (member, i) => <TeamBox key={i} {...member}/>
+                    )
+                }
+            </div>
         </div>
     )
 }
