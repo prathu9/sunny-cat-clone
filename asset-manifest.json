@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sunny-cat-clone/static/css/main.5ffbda02.css",
+    "main.js": "/sunny-cat-clone/static/js/main.c66f0837.js",
+    "static/media/collage.fb8be9f4.jpg": "/sunny-cat-clone/static/media/collage.fb8be9f4.fb8be9f46f3c73b420a8.jpg",
+    "static/media/catLogo.png": "/sunny-cat-clone/static/media/catLogo.5615bdd6d06e34ee1391.png",
+    "static/media/sunnyCatsHeroImg.png": "/sunny-cat-clone/static/media/sunnyCatsHeroImg.b2bd99aa72dc8c1ac0c5.png",
+    "static/media/background.fd94845c.jpg": "/sunny-cat-clone/static/media/background.fd94845c.fd94845c547bd61844fb.jpg",
+    "static/media/Quick Love.otf": "/sunny-cat-clone/static/media/Quick Love.fe13186c2ed562ef0deb.otf",
+    "index.html": "/sunny-cat-clone/index.html",
+    "main.5ffbda02.css.map": "/sunny-cat-clone/static/css/main.5ffbda02.css.map",
+    "main.c66f0837.js.map": "/sunny-cat-clone/static/js/main.c66f0837.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ffbda02.css",
+    "static/js/main.c66f0837.js"
+  ]
+}
