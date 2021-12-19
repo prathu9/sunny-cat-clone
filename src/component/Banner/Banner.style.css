@@ -1,0 +1,45 @@
+.banner-container{
+    display:flex;
+    margin:40px auto;
+    padding-top:64px;
+    width:100%;
+    min-height:400px;
+    justify-content: space-between;
+}
+
+.left-banner{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.banner-title{
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+    padding:24px;
+}
+
+.banner-text{
+    padding:24px;
+    text-align:center;
+}
+
+.banner-title img{
+    width:100%;
+}
+
+.banner-text{
+    font-size: 1.8rem;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:800;
+}
+
+.right-banner{
+    width:50%;
+}
+
+.banner-img img{
+    width:100%;
+    padding:24px;
+}

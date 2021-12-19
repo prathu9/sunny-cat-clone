@@ -1,0 +1,16 @@
+.faq-container{
+    width:100%;
+    min-height:400px;
+    padding-bottom:20px;
+}
+
+.faq-container h1{
+    font-size:52px;
+    text-align:center;
+    font-family: QuickLove,sans-serif;
+}
+
+.faq-box-container{
+    width:90%;
+    margin: 60px auto;
+}

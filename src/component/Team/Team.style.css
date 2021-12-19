@@ -1,0 +1,8 @@
+.team-container{
+    margin:40px auto;
+    padding:60px 0;
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Recursive', sans-serif;
+}

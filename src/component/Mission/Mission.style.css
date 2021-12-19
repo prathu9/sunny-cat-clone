@@ -1,0 +1,42 @@
+.mission-container{
+    min-height:400px;
+    background: transparent url('https://sunnycats.art/static/media/missionBackground.c64b98b2.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin:40px auto;
+    display:flex;
+    padding:100px;
+    font-family: 'Recursive', sans-serif;
+    color:#72d0f4;
+}
+
+.mission-left{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.mission-left h1{
+    margin-bottom:20px;
+    font-size: 55px;
+}
+
+.mission-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-text-container p{
+    margin:20px 0;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 900;
+}
+
+.mission-right{
+    width:50%;
+}
+
+.mission-right img{
+    width:100%;
+}

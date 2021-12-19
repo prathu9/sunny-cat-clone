@@ -1,0 +1,83 @@
+.header-container{
+    position:fixed;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    color:#fff;
+    background-color: #72d0f4;
+    border:1px solid #000;
+    min-height: 64px;
+    font-family: QuickLove,sans-serif;
+    padding-left:25px;
+    padding-right:25px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 
+    0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.left-nav{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1;
+}
+
+.logo-container{
+    width:100px;
+    padding-left:24px;
+}
+
+.logo-container img{
+    width:25px; 
+    height:25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.left-nav-item{
+    display:flex;
+}
+
+.nav-options{
+    padding:6px 8px;
+    cursor: pointer;
+}
+
+.right-nav{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    align-items:center;
+    padding-right:24px;
+}
+
+.twitter-icon{
+    flex:0.1;
+    cursor: pointer;
+}
+
+.discord-icon{
+    flex:0.1;
+    cursor: pointer;
+}
+
+.connect-btn{
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-weight: 500;
+    font-family: QuickLove,sans-serif;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    height: 42px;
+    padding: 0 16px;
+    background-color: #4faae2;
+    color:#fff;
+    cursor: pointer;
+}
+
+.connect-btn:hover{
+    background-color: #000;
+}

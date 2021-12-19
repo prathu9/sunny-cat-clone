@@ -1,0 +1,52 @@
+.carousel-container{
+    position: relative;
+    background: url("https://sunnycats.art/static/media/carouselBackground.a990c442.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:550px;
+    width:100%;
+    margin:40px auto;
+    display: flex;
+    align-items:center;
+    overflow-x: hidden;
+}
+
+.carousel-container:after,
+.carousel-container:before{
+    content:"";
+    position: absolute;
+    top:90px;
+    width:200px;
+    height:350px;
+    z-index:2;
+}
+
+.carousel-container:after{
+    right:0;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,white 100%);
+}
+
+.carousel-container:before{
+   left:0;
+   background-image: linear-gradient(to right, white 0%, rgba(255,255,255,0) 100%);
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(calc(-320px * 7));
+    }
+}
+
+.carousel-wrapper{
+    width: calc(320px * 19);
+    animation: scroll 40s infinite linear;
+}
+
+.carousel{
+    display:flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+}

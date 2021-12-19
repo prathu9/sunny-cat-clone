@@ -1,0 +1,29 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0;
+    border-top: 2px solid #fff;
+}
+
+.footer-copyright{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: QuickLove,sans-serif;
+    color:#fff;
+}
+
+.footer-copyright span{
+    display:inline-block;
+    width:400px;
+    padding: 0 20px;
+}
+
+.social-media-icon{
+    display: flex;
+    padding:0 20px;
+}
+
+.social-media-icon div{
+    margin: 0 20px;
+    color:#fff;
+}
