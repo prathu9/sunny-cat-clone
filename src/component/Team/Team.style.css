@@ -2,12 +2,14 @@
     margin:40px auto;
     padding:60px 0;
     width:90%;
+    min-width: 320px;
     font-family: 'Recursive', sans-serif;
 }
 
 .team{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 
 .team-container h1{

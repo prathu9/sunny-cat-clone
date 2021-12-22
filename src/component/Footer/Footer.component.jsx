@@ -1,6 +1,6 @@
 import './Footer.style.css';
 
-const Footer = () => {
+const Footer = ({TwitterIcon, DiscordIcon}) => {
     return(
         <div className="footer-container">
             <div className="footer-copyright">
@@ -10,11 +10,11 @@ const Footer = () => {
                 </span>
             </div>
             <div className="social-media-icon">
-                <div className="twitter-icon">
-                    <i className='fab fa-twitter'></i>
+                <div className="twitter-icon-footer">
+                    <TwitterIcon/>
                 </div>
-                <div className="discord-icon">
-                    <i className="fab fa-discord"></i>
+                <div className="discord-icon-footer">
+                    <DiscordIcon/>
                 </div>
             </div>
         </div>

@@ -4,8 +4,10 @@
     background-size: cover;
     background-repeat:no-repeat;
     margin:40px auto;
+    position: relative;
     display:flex;
     padding:100px;
+    min-width:320px;
     font-family: 'Recursive', sans-serif;
     color:#72d0f4;
 }
@@ -14,6 +16,7 @@
     display: flex;
     flex-direction: column;
     width:50%;
+    z-index:5;
 }
 
 .mission-left h1{
@@ -39,4 +42,22 @@
 
 .mission-right img{
     width:100%;
+}
+
+@media screen and (max-width:800px){
+    .mission-container{
+        padding:100px 20px;
+    }
+
+    .mission-left{
+        width:100%;
+    }
+
+    .mission-right{
+        position:absolute;
+        top:50%;
+        left:50%;
+        opacity:0.2;
+        transform: translate(-50%,-50%);
+    }
 }

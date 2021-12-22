@@ -1,6 +1,6 @@
 import './Header.style.css';
 
-const Header = () => {
+const Header = ({TwitterIcon, DiscordIcon}) => {
     return(
         <div className="header-container">
             <div className="left-nav">
@@ -20,11 +20,11 @@ const Header = () => {
                 </div>
             </div>
             <div className="right-nav">
-                <div className="twitter-icon">
-                    <i className='fab fa-twitter'></i>
+                <div className="twitter-icon-header">
+                    <TwitterIcon/>
                 </div>
-                <div className="discord-icon">
-                    <i className="fab fa-discord"></i>
+                <div className="discord-icon-header">
+                <DiscordIcon/>
                 </div>
                 <button className="connect-btn">Connect</button>
             </div>
