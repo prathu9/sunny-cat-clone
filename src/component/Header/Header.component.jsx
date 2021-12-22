@@ -5,7 +5,7 @@ const Header = () => {
         <div className="header-container">
             <div className="left-nav">
                 <div className="logo-container">
-                    <img src={require("../../asset/images/catLogo.png")} />
+                    <img src={require("../../asset/images/catLogo.png")} alt="cat-logo" />
                 </div>
                 <div className="left-nav-item">
                     <div className="nav-options">

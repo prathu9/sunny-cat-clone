@@ -23,7 +23,7 @@ const Mission =() => {
                 </div>
             </div>
             <div className="mission-right">
-                <img src="https://sunnycats.art/static/media/gip2.34f8f53c.png"/>
+                <img src="https://sunnycats.art/static/media/gip2.34f8f53c.png" alt="mission-img"/>
             </div>
         </div>
     )
