@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/sunny-cat-clone/static/css/main.5ffbda02.css",
-    "main.js": "/sunny-cat-clone/static/js/main.c66f0837.js",
+    "main.css": "/sunny-cat-clone/static/css/main.cc6e5e42.css",
+    "main.js": "/sunny-cat-clone/static/js/main.64e716ae.js",
     "static/media/collage.fb8be9f4.jpg": "/sunny-cat-clone/static/media/collage.fb8be9f4.fb8be9f46f3c73b420a8.jpg",
     "static/media/catLogo.png": "/sunny-cat-clone/static/media/catLogo.5615bdd6d06e34ee1391.png",
     "static/media/sunnyCatsHeroImg.png": "/sunny-cat-clone/static/media/sunnyCatsHeroImg.b2bd99aa72dc8c1ac0c5.png",
     "static/media/background.fd94845c.jpg": "/sunny-cat-clone/static/media/background.fd94845c.fd94845c547bd61844fb.jpg",
     "static/media/Quick Love.otf": "/sunny-cat-clone/static/media/Quick Love.fe13186c2ed562ef0deb.otf",
+    "static/media/discord-icon.svg": "/sunny-cat-clone/static/media/discord-icon.47771f0f1dc08c5f922333a79640466e.svg",
     "index.html": "/sunny-cat-clone/index.html",
-    "main.5ffbda02.css.map": "/sunny-cat-clone/static/css/main.5ffbda02.css.map",
-    "main.c66f0837.js.map": "/sunny-cat-clone/static/js/main.c66f0837.js.map"
+    "static/media/twitter-icon.svg": "/sunny-cat-clone/static/media/twitter-icon.fadbdebb3f9eb9ce0fdb8f15697bed29.svg",
+    "main.cc6e5e42.css.map": "/sunny-cat-clone/static/css/main.cc6e5e42.css.map",
+    "main.64e716ae.js.map": "/sunny-cat-clone/static/js/main.64e716ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ffbda02.css",
-    "static/js/main.c66f0837.js"
+    "static/css/main.cc6e5e42.css",
+    "static/js/main.64e716ae.js"
   ]
 }
