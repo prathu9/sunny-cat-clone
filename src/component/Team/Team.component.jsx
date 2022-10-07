@@ -2,29 +2,30 @@ import TeamBox from "../Team-box/Team-box.component";
 
 import './Team.style.css';
 
+
 const teamMember = [
     {
-        imageUrl: "https://sunnycats.art/static/media/purrmaster.97d6f387.png",
+        imageUrl: require("../../asset/images/sunny_cat6.jpg"),
         name: "Purrmaster",
         role: "Chief Cat Herder"
     },
     {
-        imageUrl: "https://sunnycats.art/static/media/sirpurr.ba71e761.png",
+        imageUrl: require("../../asset/images/sunny_cat7.jpg"),
         name: "Sir Purr",
         role: "Head of Pawpaganda"
     },
     {
-        imageUrl: "https://sunnycats.art/static/media/techcat.f135f5d0.png",
+        imageUrl: require("../../asset/images/sunny_cat8.jpg"),
         name: "Tech Cat",
         role: "Cheif Cat Herder"
     },
     {
-        imageUrl: "https://sunnycats.art/static/media/artist.b943a972.png",
+        imageUrl:  require("../../asset/images/sunny_cat9.jpg"),
         name: "Lan Anh",
         role: "Artist"
     },
     {
-        imageUrl: "https://sunnycats.art/static/media/tabbeyroad.996b85a1.png",
+        imageUrl: require("../../asset/images/sunny_cat1.jpg"),
         name: "Tabbey Road",
         role: "Keyboard Warmer"
     }

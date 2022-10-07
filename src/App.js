@@ -15,7 +15,6 @@ const App = () => {
             <Header  TwitterIcon={TwitterIcon} DiscordIcon={DiscordIcon}/>
             <Banner/>
             <Carousel/>
-            <Mission/>
             <Faq/>
             <Team/>
             <Footer TwitterIcon={TwitterIcon} DiscordIcon={DiscordIcon}/>
