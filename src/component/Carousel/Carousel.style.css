@@ -37,13 +37,13 @@
         transform: translateX(0%);
     }
     100% {
-        transform: translateX(calc(-320px * 7));
+        transform: translateX(calc(-320px * 9));
     }
 }
 
 .carousel-wrapper{
     width: calc(320px * 19);
-    animation: scroll 40s infinite linear;
+    animation: scroll 10s infinite linear;
 }
 
 .carousel{
